@@ -1,0 +1,30 @@
+Main
+1.Создать функцию, которая вернет дату в формате '31/12/2019'.
+Параметром передаем дату в формате '31-12-2019';
+Example
+getFormatDate('31-12-2019'); ///  '31/12/2019';
+
+2.Создать функцию, которая в себя примет массив имен и вернет имена с заглавной
+буквой в виде строки. Предусмотреть то, что входящие
+имена могут иметь различный регистр. Имена должны разделяться по запятой с пробелом.
+Example
+let namesArr = ['yoUliYa', 'mikHaiL', 'vlad', 'AnnA'];
+getNamesAsString(namesArr) /// 'Youliya, Mikhail, Vlad, Anna';
+
+3.Создать функцию которая вернет будет генерировать email по имени (name) и фамилии (surname)
+emplyee из массива emplyeeArr. Для генерации емейла можете юзать данные всего
+emplyee, такие как salary, workExperience и т.д.
+Example
+getRandomEmail(emplyeeArr[0]) /// 'anton.kupchikov10@example.com'
+
+4.Создать функцию, которая вернет полное имя и фамилию найденного emplyee по id 
+из массива emplyeeArr. И в зависимости от пола employee добавит 
+приставку 'Mr.' и 'Ms.' соответсвенно.
+Example
+let id = 0;
+getFullNameEmail(id) /// 'Mr. Anton Kupchikov';
+getFullNameEmail(4) /// 'Ms. Anna Vinyukova';
+
+
+Таск вместе с JavaScript и HTML файлами пушим в свой созданные репозиторий.
+Репозиторий должен называться Module1_HomeWork5;
