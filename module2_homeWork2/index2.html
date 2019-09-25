@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Pizza Store</title>
+</head>
+<body>
+    <input type="text" placeholder="Search..." id="input">
+
+    <input type="number" placeholder="Максимальная цена за пиццу" id="inputMax" name="inputPrice">
+
+    <input type="number" placeholder="Минимальная цена за пиццу" id="inputMin" name="inputPrice">
+
+    <input type="number" placeholder="Максимальное к-во калорий" id="inputMaxCaloricit" name="inputCaloricity">
+
+    <input type="number" placeholder="Минимальное к-во калорий" id="inputMinCaloricit" name="inputCaloricity">
+   
+
+<!--
+    <section>
+        <label for="com">CompositionName</label>
+        <input type="checkbox" id="com" data-id="1">
+    </section>
+    -->
+
+    <main id="pizzaContainer">
+    <div class="pizza">
+        <h1></h1>
+        <p></p>
+        <ul>
+            <li></li>
+        </ul>
+        <span></span>
+        <button class="add_item" data-id="1">Добавить в корзину</button>
+    </div>
+</main>
+<!--
+        <form action="" method="get" class="form">
+                <div class="div">
+                    <p class="p">
+                        My p
+                    </p>
+                    <ul></ul>
+                    <span></span>
+                </div>
+        </form>
+-->
+
+<div class="Basket">
+    <button id="checkout">Оформить заказ</button>
+    <button id="clear_cart">Очистить корзину</button>
+    <div id="cart_content"></div>
+</div>
+        <script src="listOfPizzasAndCompozitions.js"></script>
+        <script src="main2.js"></script>
+        <script src="basket.js"></script>
+</body>
+</html>
